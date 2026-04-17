@@ -8,11 +8,11 @@ print(sentence1[8:-9])
 sentence2="Defeats for the Clinton forces, this was her moment fo triumph"
 print(sentence2[16:-32])
 
-sentence3="The lazy dog; ran so fast; it hit the wall"
+sentence3="The lazy dog; ran so fast; it hit the wall."
 split=sentence3.split(';')
 print(len(split))
 
-first_name="Joh.n"
+first_name="  Joh.n"
 first_name=first_name.strip().replace('.','')
 last_name=" Do,e"
 last_name=last_name.strip().replace(',','')
